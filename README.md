@@ -1,6 +1,6 @@
 # Cusrso FullStack MaisPrati
  
-# Módulo1exercicio01
+# Módulo1- Exercício 01
 
 Para executar o código js no Vscode é necessário habilitar o code_run;
 Baixar e instalar o node.js na sua máquina;
