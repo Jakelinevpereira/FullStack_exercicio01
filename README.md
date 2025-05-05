@@ -52,7 +52,6 @@ e escreve-los em ordem crescente.
 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console
 utilizando um loop for.
 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
-
 11. Escreva um programa que solicita ao usuário 5 números e calcula a soma total
 utilizando um loop for.
 12. Crie um programa que exibe a tabuada de um número fornecido pelo usuário (de 1 a
