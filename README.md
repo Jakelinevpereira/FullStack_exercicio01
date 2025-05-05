@@ -2,9 +2,26 @@
  
 # Módulo1- Exercício 01
 
-Para executar o código js no Vscode é necessário habilitar o code_run;
-Baixar e instalar o node.js na sua máquina;
-Executar no cmd o comando: npm install prompt-sync;
+Instruções importantes para executar código JavaScript no VSCode:
+
+Instale o Node.js em sua máquina:
+Acesse https://nodejs.org/ e baixe a versão recomendada para seu sistema operacional.
+
+(Opcional) Instale a extensão "Code Runner" no VSCode, se quiser executar códigos JS com atalho direto (Ctrl+Alt+N).
+Obs: Não é obrigatório para rodar JS no terminal — apenas uma conveniência.
+
+Instale a biblioteca prompt-sync, caso seu código utilize entrada do usuário via terminal:
+No terminal (cmd, PowerShell ou terminal integrado do VSCode), execute:
+npm install prompt-sync
+
+Crie seu arquivo .js com o seguinte exemplo de uso do prompt-sync:
+const prompt = require('prompt-sync')();
+let nome = prompt('Digite seu nome: ');
+console.log(nome);
+
+Execute o código no terminal com:
+node nome_do_arquivo.js
+
 
 Foi disponibilizado uma lista com 15 exercícios: 
 
